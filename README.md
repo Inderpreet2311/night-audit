@@ -24,14 +24,10 @@ Gmail is accessed read-only. Your resume is stored only in your artifact storage
 
 ## Limits
 
-- Runs when you tap the button; an artifact can't self-schedule (see the Python plan below).
+- Runs when you tap the button; an artifact can't schedule itself.
 - Connector availability varies; MCP server URLs near the top of the file may need adjusting for your account.
 - Pick your market (Canada, Philippines, US, UK, Australia, India, UAE) in Settings; add a row to `MARKETS` at the top of the file for another country.
 
 ## Disclaimer
 
 Generated resumes and letters are drafts — read every line before sending. Not affiliated with any job board.
-
-## Roadmap
-
-`python/` — a cron-schedulable local version (see its README).
